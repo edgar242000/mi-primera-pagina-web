@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>   
+  <header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+    <style>
+     /*estilos para el body*/   
+    body {
+      margin: 0;
+      padding: 0;
+    } 
+
+    /*Estilos generales*/
+    #biografia {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: #8B0000;
+    }
+
+    /*estilo seccion de proyectos*/
+    #proyectos {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: #4B69FF;
+    }
+    #proyectos ul {
+    list-style-type: none;
+    }
+
+    /*estilos seccion habilidades*/
+    #habilidades {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: #0b6e0b;
+    }
+    #habilidades ul {
+    list-style-type: none;
+    }
+    
+    /*estilo seccion contacto*/
+    #contacto {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: #A8D8EA;
+    }
+    #contacto ul {
+    list-style-type: none;
+    }
+
+    /* Encabezado */
+    #inicio {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    }
+
+    #inicio img  {    
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    }
+
+    #inicio h1 {
+    margin: 0;
+    font-size: 2.5em;
+    }
+
+    #inicio p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    }
+
+
+    /* Barra de navegación */
+    nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #35424a;
+    margin: 0;
+    }
+
+    nav li {
+    margin: 0 20px;
+    }
+
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+    }
+
+    nav a:hover {
+    color: #ff9800;
+    }
+
+    /* Pie de página */
+    footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #35424a;
+    color: white;
+    }
+
+    /* Estilos para dispositivos móviles */
+    @media (max-width: 768px) {
+    header {
+        padding: 1em 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+    }
+    .section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+    </style>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    </header>
+  
+  <section id="inicio">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0YWRvcmElMjBwb3J0JUMzJUExdGlsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Mi Logo" width="50">
+    <h1>Nombre Apellido</h1>
+    <p>Desarrollador Web</p>
+  </section>
+  
+  <nav>
+    <ul>
+      <li><a href="#biografia">Biografía</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <section id="biografia" >
+    <h2>Biografía</h2>
+    <p>Mi biografía aquí. Puedes escribir sobre tus intereses, logros, educación, experiencias y cualquier otro detalle que quieras compartir.</p>
+  </section>
+  
+  <section id="proyectos" >
+    <h2>Proyectos</h2>
+    <p>En esta sección, puedes mostrar algunos de tus proyectos destacados. Incluye detalles sobre lo que has creado y las tecnologías que has utilizado.</p>
+  </section>
+  
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <p>Enumera tus habilidades técnicas y profesionales. Puedes dividirlas en categorías como "Habilidades Técnicas", "Habilidades de Comunicación", etc.</p>
+  </section>
+  
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Aquí puedes proporcionar información de contacto, como tu dirección de correo electrónico o perfiles en redes sociales, para que las personas puedan comunicarse contigo.</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Nombre Apellido. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
